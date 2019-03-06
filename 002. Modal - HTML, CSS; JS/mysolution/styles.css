@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#products {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(136, 85, 38);
+}
+#modal_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(102, 43, 43, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#modal_window {
+  max-width: 80vw;
+  background-color: wheat;
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#closebutton {
+  cursor: pointer;
+}
